@@ -706,6 +706,7 @@
     </object>
     <object name="EventPerformActions">
         <member name="ID">D54_540101_540X_FIEND_LOOT_BC</member>
+        <member name="next">AI_P13_5401_AFTER_FIEND_LOOT</member>
         <member name="actions">
             <element>
                 <object name="ActionUpdateZoneFlags">
@@ -769,6 +770,7 @@
     </object>
     <object name="EventPerformActions">
         <member name="ID">D54_540101_540X_FIEND_LOOT</member>
+        <member name="next">AI_P13_5401_AFTER_FIEND_LOOT</member>
         <member name="actions">
             <element>
                 <object name="ActionUpdateZoneFlags">
@@ -1094,7 +1096,7 @@
     </object>
     <object name="EventPerformActions">
         <member name="ID">D54_540101_540X_NORMAL_LOOT</member>
-        <member name="next">D54_540101_Q317_L</member>
+        <member name="next">AI_P13_5401_AFTER_NORMAL_LOOT</member>
         <member name="actions">
             <element>
                 <object name="ActionUpdateZoneFlags">
